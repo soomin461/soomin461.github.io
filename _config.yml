@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR" #"en-US" 블로그 메인 언어
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Soomin Kim"
   avatar           : "/assets/images/question.png" # path of avatar image, e.g. 
-  bio              : "I'm an **amazing** person, **maybe?**." #" <br> :gonna have to work at this every day. <br> : But i wanna to do that.*"
+  bio              : "I'm an **amazing** person, **maybe?**" #" <br> :gonna have to work at this every day. <br> : But i wanna to do that.*"
   location         : "South Korea"
   email            : 
   links:
