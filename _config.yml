@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Soomin Kim"
-  avatar           : "/assets/images/question.png" # path of avatar image, e.g. 
+  avatar           : "/assets/images/question_avatar.png" # path of avatar image, e.g. 
   bio              : "I'm an **amazing** person, **maybe?**" #" <br> :gonna have to work at this every day. <br> : But i wanna to do that.*"
   location         : "South Korea"
   email            : 
