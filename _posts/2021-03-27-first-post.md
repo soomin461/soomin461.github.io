@@ -28,7 +28,11 @@ Github.io를 만드는 데 있어서, 해당 블로그를 참조하였습니다.
 ### 2. 작성이 필요한 부분
 
 2-1. Ruby 및 Gem Install
+
 2-2. CMD (명령 프롬프트)로 Local host 열어서, 작동 여부 확인방법
+
 2-3. First Posting
+
 2-4. 테마 변경방법
+
 2-5. git push로 변경점 업로드하는 법
