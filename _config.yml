@@ -276,7 +276,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # 블로그 댓글 기능 true
       share: true
       related: true
