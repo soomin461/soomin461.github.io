@@ -9,9 +9,7 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-# disqus
-disqus_url: "https://whale723.disqus.com"
-disqus_id : "whale723"
+
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -26,16 +24,16 @@ name                     : "Soomin Kim(김수민)"
 description              : "월급은 티끌모아, 주식은 차곡차곡, 음식은 마구마구"
 url                      : "https://soomin461.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/soomin461/soomin461.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "soomin461/comments" # https://github.com/soomin461/soomin461.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/question.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "BOOM-BOOM Develop" # 화면타이틀 overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true   # false, true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" #"disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "whale723" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # "whale723" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -44,8 +42,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-dark-orange" # "github-light" (default), "github-dark"
+    issue_term           : "pathname"  # (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -292,6 +290,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: false
+      comments: true
       share: true
       related: false
